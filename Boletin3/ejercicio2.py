@@ -5,7 +5,7 @@ if numero1 > numero2:
     resta = numero1-numero2
     print ("La resta es:" )
     print (resta)
-else:
+else
     suma = numero1 + numero2
     print ("La suma es:")
     print (suma)
