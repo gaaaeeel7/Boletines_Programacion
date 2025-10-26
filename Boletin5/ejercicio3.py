@@ -1,7 +1,4 @@
-temperatura = input ("Escribe o valor de celsius: ")
-
-temperatura = float (temperatura)
-
-f= 9/5* temperatura + 32
-
-print (f)
+print("Fahrenheit    Celsius")
+for f in range(0, 121, 10):
+    c = (f - 32) * 5 / 9
+    print(f"{f}, {c}")
