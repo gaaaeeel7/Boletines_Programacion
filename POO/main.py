@@ -1,37 +1,9 @@
 from cilindro import Cilindro
 from persoa import Persoa
 from esfera import Esfera
-from coche import Coche
-from libro import Libro
-
-# Libro
-def main():
-    # Crear un libro
-    libro1 = Libro("O Señor dos Aneis", "J.R.R. Tolkien", 1954, 1216, 9.8)
-
-    # Amosar información
-    print(libro1.amosar_libro())
-
-    libro1.titulo = "El Hobbit"
-    libro1.valoracion = 9.5
-
-    print("\nDESPOIS DE CAMBIAR DATOS:")
-    print(libro1.amosar_libro())
-
-if __name__ == "__main__":
-    main()
 
 
-print ("")
-print("")
-# Coche
 
-c1 = Coche("BMW", 3)
-c1.avanzar()
-print(c1.gasolina)
-
-print ("")
-print("")
 
 #Persoa
 manuel = Persoa ("Manuel",
