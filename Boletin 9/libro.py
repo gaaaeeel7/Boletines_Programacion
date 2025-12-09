@@ -40,3 +40,8 @@ class Libro:
     def amosar_libro(self):
         return (
             f"Título: {self.titulo}\n"
+            f"Autor: {self.autor}\n"
+            f"Ano: {self.ano}\n"
+            f"numPaginas : {self.numPaginas}\n"
+            f"Valoracion: {self.valoracion}\n"
+        )
